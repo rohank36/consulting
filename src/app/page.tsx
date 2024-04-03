@@ -7,6 +7,7 @@ import WhyUs from "./WhyUs";
 import About from "./About";
 import Consultation from "./Consultation";
 import Footer from "./Footer";
+import Approach from "./Approach";
 
 export default function Home() {
   //TODO: later when you decide on colors, only use divider if the pages have the same main background color, otherwise no divider is needed
@@ -20,6 +21,7 @@ export default function Home() {
       <div className="divider"></div> 
       <Problem />
       <div className="divider"></div> 
+      <Approach />
       <Service />
       <WhyUs />
       <div className="divider"></div> 

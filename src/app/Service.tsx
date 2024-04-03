@@ -19,7 +19,7 @@ const Service = () => {
     //TODO: add a back button or toggle button to switch between the two options
     if(!selectedOption){
         return (
-            <div className="text-center"> 
+            <div className="text-center mt-10"> 
                 <h1 className="lg:text-5xl text-3xl font-bold mx-auto">Choose your path</h1>
                 <div className="flex flex-col w-full min-h-screen lg:flex-row p-20 lg:p-32"> 
                     <button className="flex-1 grid card bg-base-300 rounded-box place-items-center transition-transform duration-500 hover:scale-105" onClick={clickStudentAthlete}> 

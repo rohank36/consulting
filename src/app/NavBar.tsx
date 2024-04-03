@@ -1,5 +1,5 @@
 import React from 'react';
-
+//TODO: MAKE SURE ALL PAGES ARE ACCESSIBLE FROM MENU DROPDOWN
 const NavBar = () =>{
     return(
         <div>
@@ -18,9 +18,10 @@ const NavBar = () =>{
                             <ul className="p-2">
                                 <li><a>Home</a></li>
                                 <li><a>The Problem</a></li>
+                                <li><a>Our Approach</a></li>
                                 <li><a>Our Service</a></li>
                                 <li><a>Why Trust Us?</a></li>
-                                <li><a>About</a></li>
+                                <li><a>Our Mission</a></li>
                                 <li><a>Consultation</a></li>
                             </ul>
                             </details>

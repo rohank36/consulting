@@ -7,7 +7,10 @@ const Consultation = () => {
                 <div className="hero-content text-center p-20">
                     <div className="lg:w-full">
                         <h1 className="text-5xl font-bold">Book Your Free Consultation Now</h1>
-                        <p className="py-6">Schedule a consultation and we'll be in contact with you. Let's navigate this journey together to ensure that you are always one step ahead.</p>
+                        <p className="py-6">
+                            Schedule your free 30 minute consultation today and we'll be in contact with you! Dive into a personalized session where we explore your unique aspirations and challenges to tailor a customized experience and strategy based on your needs.
+                            We're here to guide you every step of the way. Let's navigate this journey together to ensure that you are always one step ahead.
+                        </p>
                         <button className="btn btn-primary">Book Consultation</button>
                     </div>
                 </div>
