@@ -1,9 +1,23 @@
-import React from 'react';
+'use client';
+import React, { useState, useEffect } from 'react';
 //TODO: MAKE SURE ALL PAGES ARE ACCESSIBLE FROM MENU DROPDOWN
 const NavBar = () =>{
+    const [isColor, setIsColor] = useState(true);
+    const handleScroll = () => {
+        const shouldMakeColor = window.scrollY > 60;
+        setIsColor(shouldMakeColor);
+    };
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
+    const navbarClasses = isColor ? 'navbar absolute top-0 z-50 bg-neutral transition-colors duration-300' : 'navbar absolute top-0 z-50 bg-transparent transition-colors duration-300';
+
     return(
         <div>
-            <div className="navbar bg-base-300">
+            <div className={navbarClasses}>
                 <div className="navbar-start hidden lg:flex">
                     <a className="btn btn-ghost text-xl">Consulting Biz</a>
                 </div>
