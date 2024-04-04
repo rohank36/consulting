@@ -4,14 +4,15 @@ import StudentAthleteCard from './StudentAthleteCard';
 const stage1Title = "askdfjaksldfjklasdf";
 const stage1Description = "asdjkfasdjklfajskldf";
 
+//TODO: maybe switch to use "card" dasiy ui then leverage the design principle the guy in the tiktok talked about
 
 const StudentAthlete = () => {
     return (
         <div className="min-h-screen w-full flex justify-center items-center mt-10">
 
             <div className='w-3/4'>
-                <h1 className="font-bold text-2xl lg:text-4xl mb-4 text-center">Student Athlete Stages</h1>
-                <h1 className="text-md lg:text-lg text-center mb-8">Click on any stage to learn more</h1>
+                <h1 className="font-bold text-2xl lg:text-4xl mb-4 text-center">Student Athlete Modules</h1>
+                <h1 className="text-md lg:text-lg text-center mb-8">Click on any module to learn more</h1>
                 <div className="collapse bg-base-200 mb-6">
                     <input type="radio" name="my-accordion-1" defaultChecked /> 
                     <div className="collapse-title text-xl font-medium">

@@ -18,7 +18,6 @@ export default function Home() {
         <NavBar/>
       </div>
       <Landing />
-      <div className="divider"></div> 
       <Problem />
       <div className="divider"></div> 
       <Approach />

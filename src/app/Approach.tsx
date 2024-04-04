@@ -15,7 +15,7 @@ const Approach = () => {
                             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id n
                             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id n
                         </p>
-                        <button className="btn btn-primary">Check out our stages</button>
+                        <button className="btn btn-primary">Check out our modules</button>
                     </div>
                 </div>
             </div>

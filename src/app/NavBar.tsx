@@ -1,8 +1,9 @@
 'use client';
 import React, { useState, useEffect } from 'react';
 //TODO: MAKE SURE ALL PAGES ARE ACCESSIBLE FROM MENU DROPDOWN
+//TODO: add a FAQ section? 
 const NavBar = () =>{
-    const [isColor, setIsColor] = useState(true);
+    const [isColor, setIsColor] = useState(false);
     const handleScroll = () => {
         const shouldMakeColor = window.scrollY > 60;
         setIsColor(shouldMakeColor);
@@ -13,8 +14,8 @@ const NavBar = () =>{
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
-    const navbarClasses = isColor ? 'navbar absolute top-0 z-50 bg-neutral transition-colors duration-300' : 'navbar absolute top-0 z-50 bg-transparent transition-colors duration-300';
-
+    const navbarClasses = isColor ? 'navbar absolute top-0 z-50 bg-neutral transition-colors duration-300 shadow-lg rounded-b-lg' : 'navbar absolute top-0 z-50 bg-transparent transition-colors duration-300';
+    
     return(
         <div>
             <div className={navbarClasses}>
@@ -36,6 +37,7 @@ const NavBar = () =>{
                                 <li><a>Our Service</a></li>
                                 <li><a>Why Trust Us?</a></li>
                                 <li><a>Our Mission</a></li>
+                                <li><a>FAQ</a></li>
                                 <li><a>Consultation</a></li>
                             </ul>
                             </details>
