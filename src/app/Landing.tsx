@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from './NavBar';
 
+//TODO: maybe try a different way to make this image the background by putting it in the public folder so that it loads properly?
 const Landing = () => {
     return(
         <div className="">
