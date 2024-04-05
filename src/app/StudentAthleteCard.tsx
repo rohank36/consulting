@@ -1,5 +1,5 @@
 import React from 'react';
-
+//test commment for git
 const StudentAthleteCard = (props: {title:string, description: string, numOfSession: number, imgSrc: string, imgSrcAlt: string}) => {
     return (
         <div className="max-w-md rounded-lg hover:-translate-y-1 hover:scale-110 duration-300">
