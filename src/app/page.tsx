@@ -8,6 +8,8 @@ import About from "./About";
 import Consultation from "./Consultation";
 import Footer from "./Footer";
 import Approach from "./Approach";
+import FAQ from "./FAQ";
+import StudentAthlete from "./StudentAthlete";
 
 export default function Home() {
   //TODO: later when you decide on colors, only use divider if the pages have the same main background color, otherwise no divider is needed
@@ -19,13 +21,12 @@ export default function Home() {
       </div>
       <Landing />
       <Problem />
-      <div className="divider"></div> 
       <Approach />
-      <Service />
+      <StudentAthlete />
       <WhyUs />
       <div className="divider"></div> 
       <About />
-      <div className="divider"></div>
+      <FAQ />
       <Consultation />
       <Footer />
     </div>

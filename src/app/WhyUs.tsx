@@ -18,7 +18,7 @@ const WhyUs = () => {
     return (
         <div>
             <div className="hero min-h-screen bg-base-200 flex flex-col">
-                <h1 className="text-center font-bold mx-auto text-3xl lg:text-5xl mt-5 mb-4 lg:mt-12">Why trust us?</h1>
+                <h1 className="text-center font-bold mx-auto text-3xl lg:text-7xl mt-5 mb-4 lg:mt-12">Why trust us?</h1>
                 <h1 className="mb-10 lg:mb-16">We are both experts blah blabh blab.....</h1>
                 <div className="hero-content flex-col lg:flex-row mb-10 lg:mb-36">
                     <img src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg" className="max-w-sm rounded-lg shadow-2xl" alt="Box Office"/>
