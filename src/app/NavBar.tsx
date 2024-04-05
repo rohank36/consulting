@@ -1,7 +1,7 @@
 'use client';
 import React, { useState, useEffect } from 'react';
 //TODO: MAKE SURE ALL PAGES ARE ACCESSIBLE FROM MENU DROPDOWN
-//TODO: add a FAQ section? 
+
 const NavBar = () =>{
     const [isColor, setIsColor] = useState(false);
     const handleScroll = () => {
@@ -14,7 +14,7 @@ const NavBar = () =>{
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
-    const navbarClasses = isColor ? 'navbar absolute top-0 z-50 bg-neutral transition-colors duration-300 shadow-lg rounded-b-lg' : 'navbar absolute top-0 z-50 bg-transparent transition-colors duration-300';
+    const navbarClasses = isColor ? 'navbar absolute top-0 z-50 bg-[#f7f7f7] transition-colors duration-300 shadow-2xl rounded-b-lg' : 'navbar absolute top-0 z-50 bg-transparent transition-colors duration-300';
     
     return(
         <div>
@@ -23,7 +23,7 @@ const NavBar = () =>{
                     <a className="btn btn-ghost text-xl">Consulting Biz</a>
                 </div>
                 <div className="flex lg:navbar-center items-center justify-center w-full lg:w-auto">
-                    <a className="btn">Book Your Free Consultation Now</a>
+                    <a className="btn btn-active btn-ghost hover:scale-110 duration-300">Book Your Free Consultation Now</a>
                 </div>
                 <div className="navbar-end hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 mr-10">

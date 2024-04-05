@@ -10,7 +10,7 @@ const Problem = () =>{
                     <h1 className="lg:text-7xl text-3xl font-bold">Struggling to navigate collegiate sports recruitment or National Service?</h1>
                     <h1 className="lg:text-6xl text-3xl mt-5">We've been there, we get it.</h1>
                     <p className="lg:text-lg text-md py-6">With our expert guidance, we'll simplify your journey, helping you navigate and overcome hurdles together.</p>
-                    <button className="btn btn-primary">How we help you</button>
+                    <button className="btn bg-transparent text-white hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-transparent">How we help you</button>
                     </div>
                 </div>
             </div>
