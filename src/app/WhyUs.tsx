@@ -43,7 +43,7 @@ const WhyUs = () => {
                 </div>
                 <p className="py-6">Ibrahim is a dedicated blah blah blah blah. Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi</p>
                 <div className="px-6">
-                    <ul className="list-none list-inside text-xl space-y-5">
+                    <ul className="list-none list-inside text-lg space-y-5">
                         <li className="hover:scale-110 cursor-pointer duration-300"
                             onClick={() => setCurrentImage(images.photo1)}
                         >🏃🏿 Princeton Track and Field Captain</li>

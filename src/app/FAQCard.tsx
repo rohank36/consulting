@@ -2,13 +2,8 @@
 const FAQCard = (props:{title:string, description: string}) =>{
     return(
         <div className="card card-side bg-base-100 shadow-xl">
-            <figure><img src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg" alt="Movie"/></figure>
             <div className="card-body">
-                    <h2 className="card-title">New movie is released!</h2>
-                    <p>Click the button to watch on Jetflix app.</p>
-                <div className="card-actions justify-end">
-                    <button className="btn btn-primary">Watch</button>
-                </div>
+                    <p>Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi</p>
             </div>
         </div>
     );

@@ -24,7 +24,6 @@ export default function Home() {
       <Approach />
       <StudentAthlete />
       <WhyUs />
-      <div className="divider"></div> 
       <About />
       <FAQ />
       <Consultation />
