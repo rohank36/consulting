@@ -1,4 +1,7 @@
-import React from 'react';
+'use client';
+import React, {useState} from 'react';
+import WhyUsStats from './WhyUsStats';
+import WhyUsCarousel from './WhyUsCarousel';
 
 const LinkedInIcon = () => (
   <svg enableBackground="new 0 0 32 32" height="32px" viewBox="0 0 32 32" width="32px" xmlns="http://www.w3.org/2000/svg">
@@ -15,125 +18,47 @@ const LinkedInIcon = () => (
 
 //TODO: make this page mobile friendly
 const WhyUs = () => {
+    const [currentImage, setCurrentImage] = useState('/images/trackstar.jpg');
+    const images = {
+        photo1: '/images/trackstar.jpg',
+        photo2: '/images/modules/brand-development.jpg',
+    }; 
     return (
-        <div>
-            <div className="hero min-h-screen bg-base-200 flex flex-col">
-                <h1 className="text-center font-bold mx-auto text-3xl lg:text-7xl mt-5 mb-4 lg:mt-12">Why trust us?</h1>
-                <h1 className="mb-10 lg:mb-16">We are both experts blah blabh blab.....</h1>
-                <div className="hero-content flex-col lg:flex-row mb-10 lg:mb-36">
-                    <img src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg" className="max-w-sm rounded-lg shadow-2xl" alt="Box Office"/>
-                    <div>
-                        <div className="flex items-center space-x-4"> {/* Flex container for side-by-side layout */}
-                            <h1 className="text-5xl font-bold">Ibrahim Ayorinde</h1>
-                            <button className="transition-transform duration-500 hover:scale-125">
-                                <LinkedInIcon />
-                            </button>
+        <div className="flex flex-wrap md:flex-nowrap min-h-screen">
+            <div className="w-full md:w-1/2 p-4 md:p-10 bg-white rounded-lg">
+                <h1 className="text-center font-bold text-3xl lg:text-7xl mt-5 mb-4">Why trust us?</h1>
+                <p className="text-center mb-10 lg:mb-16">We are both experts blah blah blah.....</p>
+                <div className="flex items-center space-x-4 mb-2">
+                    <div className="avatar">
+                        <div className="w-24 rounded">
+                            <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" alt="Profile" />
                         </div>
-                        <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                        <div className="stats shadow">
-                            <div className="stat">
-                                <div className="stat-figure text-primary">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-8 h-8 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
-                                </div>
-                                <div className="stat-title">Total Likes</div>
-                                <div className="stat-value text-primary">25.6K</div>
-                                <div className="stat-desc">21% more than last month</div>
-                            </div>
-                            
-                            <div className="stat">
-                                <div className="stat-figure text-secondary">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-8 h-8 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-                                </div>
-                                <div className="stat-title">Page Views</div>
-                                <div className="stat-value text-secondary">2.6M</div>
-                                <div className="stat-desc">21% more than last month</div>
-                            </div>
-                            
-                            <div className="stat">
-                                <div className="stat-figure text-secondary">
-                                <div className="avatar online">
-                                    <div className="w-16 rounded-full">
-                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
-                                    </div>
-                                </div>
-                                </div>
-                                <div className="stat-value">86%</div>
-                                <div className="stat-title">Tasks done</div>
-                                <div className="stat-desc text-secondary">31 tasks remaining</div>
-                            </div>
-                            <div className="stat">
-                                <div className="stat-figure text-secondary">
-                                <div className="avatar online">
-                                    <div className="w-16 rounded-full">
-                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
-                                    </div>
-                                </div>
-                                </div>
-                                <div className="stat-value">86%</div>
-                                <div className="stat-title">Tasks done</div>
-                                <div className="stat-desc text-secondary">31 tasks remaining</div>
-                            </div>
-                        </div>
-                        
                     </div>
+                    <h1 className="text-5xl font-bold">Ibrahim Ayorinde</h1>
+                    <button className="transition-transform duration-500 hover:scale-125">
+                        <LinkedInIcon />
+                    </button>
                 </div>
-                <div className="hero-content flex-col lg:flex-row-reverse mb-20">
-                    <img src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg" className="max-w-sm rounded-lg shadow-2xl" alt="Box Office"/>
-                    <div>
-                        <div className="flex items-center space-x-4"> {/* Flex container for side-by-side layout */}
-                            <h1 className="text-5xl font-bold">Rohan Kanti</h1>
-                            <button className="transition-transform duration-500 hover:scale-125">
-                                <LinkedInIcon />
-                            </button>
-                        </div>
-                        <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                        <div className="stats shadow">
-                            <div className="stat">
-                                <div className="stat-figure text-primary">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-8 h-8 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
-                                </div>
-                                <div className="stat-title">Total Likes</div>
-                                <div className="stat-value text-primary">25.6K</div>
-                                <div className="stat-desc">21% more than last month</div>
-                            </div>
-                            
-                            <div className="stat">
-                                <div className="stat-figure text-secondary">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-8 h-8 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-                                </div>
-                                <div className="stat-title">Page Views</div>
-                                <div className="stat-value text-secondary">2.6M</div>
-                                <div className="stat-desc">21% more than last month</div>
-                            </div>
-                            
-                            <div className="stat">
-                                <div className="stat-figure text-secondary">
-                                <div className="avatar online">
-                                    <div className="w-16 rounded-full">
-                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
-                                    </div>
-                                </div>
-                                </div>
-                                <div className="stat-value">86%</div>
-                                <div className="stat-title">Tasks done</div>
-                                <div className="stat-desc text-secondary">31 tasks remaining</div>
-                            </div>
-                            <div className="stat">
-                                <div className="stat-figure text-secondary">
-                                <div className="avatar online">
-                                    <div className="w-16 rounded-full">
-                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
-                                    </div>
-                                </div>
-                                </div>
-                                <div className="stat-value">86%</div>
-                                <div className="stat-title">Tasks done</div>
-                                <div className="stat-desc text-secondary">31 tasks remaining</div>
-                            </div>
-                        </div>
-                        
-                    </div>
+                <p className="py-6">Ibrahim is a dedicated blah blah blah blah. Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                <div className="px-6">
+                    <ul className="list-none list-inside text-xl space-y-6">
+                        <li className="hover:scale-110 cursor-pointer duration-300"
+                            onClick={() => setCurrentImage(images.photo1)}
+                        >🏃🏿 Princeton Track and Field Captain</li>
+                        <li className="hover:scale-110 cursor-pointer duration-300"
+                            onClick={() => setCurrentImage(images.photo2)}
+                        >🍁 Team Canada Track and Field</li>
+                        <li className="hover:scale-110 cursor-pointer duration-300">🏆 3x Princeton School Record Holder</li>
+                        <li className="hover:scale-110 cursor-pointer duration-300">🥇 Ivy League Record Holder</li>
+                        <li className="hover:scale-110 cursor-pointer duration-300">📚 Studied Operations Research and Financial Engineering</li>
+                    </ul>
                 </div>
+                <div className='text-center mt-20'>
+                    <h1 className="text-2xl font-bold">Recruited By</h1>
+                </div>
+            </div>
+            <div className="w-1/2 min-h-screen">
+                <img src={currentImage} className="w-full h-full object-cover rounded-lg" alt="Various images" />
             </div>
         </div>
     );
