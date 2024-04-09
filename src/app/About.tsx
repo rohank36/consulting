@@ -3,7 +3,7 @@ import React from 'react';
 const About = () =>{
     return(
         <div >
-            <div className="hero min-h-screen bg-base-200">
+            <div className="hero min-h-screen bg-white">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <div className="flex flex-col ml-10">
                         <img src="/images/ntp.JPG" className="max-w-sm rounded-lg shadow-2xl" />
