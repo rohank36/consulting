@@ -29,7 +29,7 @@ const WhyUs = () => {
         <div className="flex flex-wrap md:flex-nowrap h-screen">
             <div className="w-full md:w-1/2 p-4 md:p-10 bg-white rounded-lg overflow-auto">
                 <h1 className="text-center font-bold text-3xl lg:text-7xl mb-4">Why trust us?</h1>
-                <p className="text-center mb-2 lg:mb-8">We have been through the process and excelled blah blah blah.....</p>
+                <p className="text-center text-sm mb-2 lg:mb-8">Our team is composed of experts who have walked this path and thrived. We understand that it's more than just the game - it's the journey.</p>
                 <div className="flex items-center space-x-4 mb-2">
                     <div className="avatar">
                         <div className="w-24 rounded">
@@ -41,9 +41,11 @@ const WhyUs = () => {
                         <LinkedInIcon />
                     </button>
                 </div>
-                <p className="py-6">Ibrahim is a dedicated blah blah blah blah. Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi</p>
+                <p className="mb-5 text-sm">
+                Meet Ibrahim, a beacon of hard work, dedication, and empathy. His college recruitment journey began with challenges, facing minimal interest from colleges. However, his unwavering determination and effort to stand out to college coaches paid off, leading to performances that far exceeded expectations. More than his accomplishments, it’s Ibrahim’s relentless drive and understanding of the recruitment process's highs and lows that make him stand out. Having walked this path himself, Ibrahim is uniquely equipped to guide aspiring college athletes, demonstrating that with the right mindset and support, achieving your dreams is within reach. Let Ibrahim navigate you through the college sports recruitment process, transforming your potential into reality.
+                </p>
                 <div className="px-6">
-                    <ul className="list-none list-inside text-lg space-y-5">
+                    <ul className="list-none list-inside text-lg space-y-3">
                         <li className="hover:scale-110 cursor-pointer duration-300"
                             onClick={() => setCurrentImage(images.photo1)}
                         >🏃🏿 Princeton Track and Field Captain</li>
