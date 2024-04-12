@@ -1,5 +1,6 @@
 'use client';
 import React, {useState} from 'react';
+import Link from 'next/link'
 import WhyUsStats from './WhyUsStats';
 import WhyUsCarousel from './WhyUsCarousel';
 
@@ -18,10 +19,16 @@ const LinkedInIcon = () => (
 
 //TODO: make this page mobile friendly
 const WhyUs = () => {
-    const [currentImage, setCurrentImage] = useState('/images/trackstar.jpg'); // Default image
+    const ibroLinkedIn="https://www.linkedin.com/in/ibrahim-ayorinde-494b821ab/";
+    const [currentImage, setCurrentImage] = useState('/images/ibro/princeton-captain.JPG'); // Default image
     const images = {
-        photo1: '/images/trackstar.jpg',
-        photo2: '/images/modules/brand-development.jpg',
+        photo1: '/images/ibro/princeton-captain.JPG',
+        photo2: '/images/ibro/team-canada.JPG',
+        photo3: '/images/ibro/princeton-record-holder.JPG',
+        photo4: '/images/ibro/ivy-league-record.JPG',
+        photo5: '/images/ibro/princeton-captain.JPG',
+        photo6: '/images/ibro/grad.JPG',
+        photo7: '/images/ibro/princeton-captain.JPG'
         // Add more images as needed
     };
 
@@ -33,12 +40,12 @@ const WhyUs = () => {
                 <div className="flex items-center space-x-4 mb-2">
                     <div className="avatar">
                         <div className="w-24 rounded">
-                            <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" alt="Profile" />
+                            <img src="/images/ibro/ibro-headshot.JPG" alt="Profile" />
                         </div>
                     </div>
                     <h1 className="text-5xl font-bold">Ibrahim Ayorinde</h1>
                     <button className="transition-transform duration-500 hover:scale-125">
-                        <LinkedInIcon />
+                        <Link href={ibroLinkedIn}><LinkedInIcon /></Link>
                     </button>
                 </div>
                 <p className="mb-5 text-sm">
@@ -52,11 +59,21 @@ const WhyUs = () => {
                         <li className="hover:scale-110 cursor-pointer duration-300"
                             onClick={() => setCurrentImage(images.photo2)}
                         >🍁 Team Canada Track and Field</li>
-                        <li className="hover:scale-110 cursor-pointer duration-300">🏆 3x Princeton School Record Holder</li>
-                        <li className="hover:scale-110 cursor-pointer duration-300">🥇 Ivy League Record Holder</li>
-                        <li className="hover:scale-110 cursor-pointer duration-300">🎓 Recruited by ___+ schools across the US and Canada</li>
-                        <li className="hover:scale-110 cursor-pointer duration-300">📚 Studied Operations Research and Financial Engineering</li>
-                        <li className="hover:scale-110 cursor-pointer duration-300">👔 Incoming Analyst @ McKinsey & Company in NYC </li>
+                        <li className="hover:scale-110 cursor-pointer duration-300"
+                            onClick={() => setCurrentImage(images.photo3)}
+                        >🏆 3x Princeton School Record Holder</li>
+                        <li className="hover:scale-110 cursor-pointer duration-300"
+                            onClick={() => setCurrentImage(images.photo4)}
+                        >🥇 Ivy League Record Holder</li>
+                        <li className="hover:scale-110 cursor-pointer duration-300"
+                            onClick={() => setCurrentImage(images.photo5)}
+                        >🎓 Recruited by ___+ schools across the US and Canada</li>
+                        <li className="hover:scale-110 cursor-pointer duration-300"
+                            onClick={() => setCurrentImage(images.photo6)}
+                        >📚 Studied Operations Research and Financial Engineering</li>
+                        <li className="hover:scale-110 cursor-pointer duration-300"
+                            onClick={() => setCurrentImage(images.photo7)}
+                        >👔 Incoming Analyst @ McKinsey & Company in NYC </li>
                     </ul>
                 </div>
             </div>

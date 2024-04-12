@@ -5,6 +5,7 @@ import Link from 'next/link'
 const About = () =>{
     const rohanLinkedIn="https://www.linkedin.com/in/rohankanti/";
     const ibroLinkedIn="https://www.linkedin.com/in/ibrahim-ayorinde-494b821ab/";
+    const ntpNews="https://bit.ly/2mlDfLV";
     return(
         <div >
             <div className="hero min-h-screen bg-white">
@@ -20,8 +21,8 @@ const About = () =>{
                             <h2 className="text-xl mb-5">You might wonder, <i>what fuels our drive?</i> The answer is simple - we have always been motivated by a heartfelt commitment to creating positive change in people's lives.</h2>
                             <p>
                                 Back in 2017, driven by our deep passion for making a difference, we, <Link href={ibroLinkedIn} className="text-blue-500 underline">Ibrahim</Link> and <Link href={rohanLinkedIn} className="text-blue-500 underline">Rohan</Link>, launched the Newcomers Tutoring Program.   
-                                This initiative in its first year alone supported over 50 refugee children, easing their transition into the Canadian education system through personalized tutoring and peer support. 
-                                Our efforts were recognized in 2018 when we were honored with the YMCA Peace Medal, celebrating our commitment to community empowerment and our ability to make a significant impact with 
+                                This initiative in its first year alone supported over 15 refugee children, easing their transition into the Canadian education system through personalized tutoring and peer support. 
+                                Our efforts were recognized in 2018 when we were honored with the <Link href={ntpNews} className="text-blue-500 underline">YMCA Peace Medal</Link>, celebrating our commitment to community empowerment and our ability to make a significant impact with 
                                 minimal resources. Now, seven years later, our dedication to helping young adults unlock their potential remains unwavering. There's nothing we find more fulfilling than seeing you 
                                 pursue and achieve your dreams. 
                             </p>
