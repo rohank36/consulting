@@ -1,5 +1,6 @@
 'use client';
 import React, { useState, useEffect } from 'react';
+import Link from 'next/link';
 //TODO: MAKE SURE ALL PAGES ARE ACCESSIBLE FROM MENU DROPDOWN
 
 const NavBar = () =>{
@@ -23,7 +24,7 @@ const NavBar = () =>{
                     <a className="btn btn-ghost text-xl">Consulting Biz</a>
                 </div>
                 <div className="flex lg:navbar-center items-center justify-center w-full lg:w-auto">
-                    <a className="btn btn-outline hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-transparent hover:text-neutral">Book Your Free Consultation Now</a>
+                    <Link href="#consultation"><button className="btn btn-outline hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-transparent hover:text-neutral">Book Your Free Consultation Now</button></Link>
                 </div>
                 <div className="navbar-end hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 mr-10">
@@ -31,14 +32,14 @@ const NavBar = () =>{
                             <details>
                             <summary>Explore</summary>
                             <ul className="p-2">
-                                <li><a>Home</a></li>
-                                <li><a>The Problem</a></li>
-                                <li><a>Our Approach</a></li>
-                                <li><a>Our Service</a></li>
-                                <li><a>Why Trust Us?</a></li>
-                                <li><a>Our Mission</a></li>
-                                <li><a>FAQ</a></li>
-                                <li><a>Consultation</a></li>
+                            <li><Link href="#home">Home</Link></li>
+                            <li><Link href="#problem">The Problem</Link></li>
+                            <li><Link href="#approach">Our Approach</Link></li>
+                            <li><Link href="#service">Our Service</Link></li>
+                            <li><Link href="#whyus">Why Trust Us?</Link></li>
+                            <li><Link href="#about">Our Mission</Link></li>
+                            <li><Link href="#faq">FAQ</Link></li>
+                            <li><Link href="#consultation">Consultation</Link></li>
                             </ul>
                             </details>
                         </li>

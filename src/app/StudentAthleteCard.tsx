@@ -1,3 +1,4 @@
+'use client';
 import React from 'react';
 const StudentAthleteCard = (props: {title:string, description: string, numOfSession: number, imgSrc: string, imgSrcAlt: string}) => {
     return (

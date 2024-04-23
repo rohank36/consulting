@@ -1,8 +1,9 @@
+'use client';
 import React from 'react';
 
-const Consultation = () => {
+const Consultation = (props:{id:string}) => {
     return(
-        <div>
+        <div id={props.id}>
             <div className="hero h-3/4 bg-white">
                 <div className="hero-content text-center p-20">
                     <div className="lg:w-full">

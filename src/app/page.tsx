@@ -12,21 +12,21 @@ import FAQ from "./FAQ";
 import StudentAthlete from "./StudentAthlete";
 
 export default function Home() {
-  //TODO: later when you decide on colors, only use divider if the pages have the same main background color, otherwise no divider is needed
+  
   //!!!: MAKE SURE EVERYTHING IS OPTIMIZED FOR MOBILE
   return (
-    <div className="flex flex-col w-full">
+    <div className="flex flex-col w-full scroll-smooth">
       <div className="sticky top-0 z-50">
         <NavBar/>
       </div>
-      <Landing />
-      <Problem />
-      <Approach />
-      <StudentAthlete />
-      <WhyUs />
-      <About />
-      <FAQ />
-      <Consultation />
+      <Landing id="home"/>
+      <Problem id="problem"/>
+      <Approach id="approach" />
+      <StudentAthlete id="service"/>
+      <WhyUs id="whyus"/>
+      <About id="about"/>
+      <FAQ id="faq"/>
+      <Consultation id="consultation"/>
       <Footer />
     </div>
   );

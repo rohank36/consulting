@@ -2,12 +2,12 @@ import React from 'react';
 import Link from 'next/link'
 
 //TODO: Change out all consulting biz to real biz name
-const About = () =>{
+const About = (props:{id:string}) =>{
     const rohanLinkedIn="https://www.linkedin.com/in/rohankanti/";
     const ibroLinkedIn="https://www.linkedin.com/in/ibrahim-ayorinde-494b821ab/";
     const ntpNews="https://bit.ly/2mlDfLV";
     return(
-        <div >
+        <div id={props.id}>
             <div className="hero min-h-screen bg-white">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <div className="flex flex-col ml-10">
@@ -17,7 +17,7 @@ const About = () =>{
                     <div>
                         <h1 className="text-7xl font-bold mb-3">Our Mission</h1>
                         <div className='py-6'>
-                            <h1 className="text-3xl mb-5">At Consulting Biz, our mission is crystal clear: <div><b>We're here to pave the way for you to get recruited by your dream school.</b></div></h1>
+                            <h1 className="text-3xl mb-5">At Consulting Biz, our mission is clear: <div><b>We're here to pave the way for you to get recruited by your dream school.</b></div></h1>
                             <h2 className="text-xl mb-5">You might wonder, <i>what fuels our drive?</i> The answer is simple - we have always been motivated by a heartfelt commitment to creating positive change in people's lives.</h2>
                             <p>
                                 Back in 2017, driven by our deep passion for making a difference, we, <Link href={ibroLinkedIn} className="text-blue-500 underline">Ibrahim</Link> and <Link href={rohanLinkedIn} className="text-blue-500 underline">Rohan</Link>, launched the Newcomers Tutoring Program.   

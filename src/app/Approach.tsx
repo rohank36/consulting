@@ -1,8 +1,9 @@
 import React from 'react';
+import Link from 'next/link';
 
-const Approach = () => {
+const Approach = (props:{id:string}) => {
     return(
-        <div>
+        <div id={props.id}>
             <div className="hero min-h-screen bg-white">
                 <div className="hero-content text-center text-neutral-800">
                     <div className="max-w-md lg:max-w-full">
@@ -15,7 +16,7 @@ const Approach = () => {
                             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id n
                             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id n
                         </p>
-                        <button className="btn btn-outline hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-transparent hover:text-black">Check out our modules</button>
+                        <button className="btn btn-outline cursor-auto hover:bg-transparent hover:text-black">Check out our modules below</button>
                     </div>
                 </div>
             </div>

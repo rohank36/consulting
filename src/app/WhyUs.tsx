@@ -18,25 +18,25 @@ const LinkedInIcon = () => (
 );
 
 //TODO: make this page mobile friendly
-const WhyUs = () => {
+const WhyUs = (props:{id:string}) => {
     const ibroLinkedIn="https://www.linkedin.com/in/ibrahim-ayorinde-494b821ab/";
-    const [currentImage, setCurrentImage] = useState('/images/ibro/princeton-captain.JPG'); // Default image
+    const [currentImage, setCurrentImage] = useState('/images/ibro/princeton-record-holder.JPG'); // Default image
     const images = {
-        photo1: '/images/ibro/princeton-captain.JPG',
+        photo1: '/images/ibro/princeton-record-holder.JPG',
         photo2: '/images/ibro/team-canada.JPG',
         photo3: '/images/ibro/princeton-record-holder.JPG',
         photo4: '/images/ibro/ivy-league-record.JPG',
-        photo5: '/images/ibro/princeton-captain.JPG',
+        photo5: '/images/ibro/princeton-record-holder.JPG',
         photo6: '/images/ibro/grad.JPG',
-        photo7: '/images/ibro/princeton-captain.JPG'
+        photo7: '/images/ibro/princeton-record-holder.JPG'
         // Add more images as needed
     };
 
     return (
-        <div className="flex flex-wrap md:flex-nowrap h-screen">
+        <div id={props.id} className="flex flex-wrap md:flex-nowrap h-screen">
             <div className="w-full md:w-1/2 p-4 md:p-10 bg-white rounded-lg overflow-auto">
                 <h1 className="text-center font-bold text-3xl lg:text-7xl mb-4">Why trust us?</h1>
-                <p className="text-center text-sm mb-2 lg:mb-8">Our team is composed of experts who have walked this path and thrived. We understand that it's more than just the game - it's the journey.</p>
+                <p className="text-center text-sm mb-2 lg:mb-8">Our team is composed of experts who have walked this path and thrived.</p>
                 <div className="flex items-center space-x-4 mb-2">
                     <div className="avatar">
                         <div className="w-24 rounded">
@@ -49,7 +49,12 @@ const WhyUs = () => {
                     </button>
                 </div>
                 <p className="mb-5 text-sm">
-                Meet Ibrahim, a beacon of hard work, dedication, and empathy. His college recruitment journey began with challenges, facing minimal interest from colleges. However, his unwavering determination and effort to stand out to college coaches paid off, leading to performances that far exceeded expectations. More than his accomplishments, it’s Ibrahim’s relentless drive and understanding of the recruitment process's highs and lows that make him stand out. Having walked this path himself, Ibrahim is uniquely equipped to guide aspiring college athletes, demonstrating that with the right mindset and support, achieving your dreams is within reach. Let Ibrahim navigate you through the college sports recruitment process, transforming your potential into reality.
+                    Meet Ibrahim, Consulting Biz’s lead mentor. Born in the U.S. and raised in Oakville, Canada, Ibrahim discovered his passion for track at a young age. 
+                    Throughout high school at Appleby College, he excelled in multiple competitions winning meets like ____,_____, and ______. Ibrahim overcame college recruitment 
+                    obstacles by navigating the process himself, securing offers from prestigious universities like Princeton, Columbia, and the University of Toronto. At Princeton, 
+                    he not only pursued an Engineering degree but also broke records in the Ivy League, eventually becoming the captain of the Princeton track and field team. With his 
+                    extensive experience and achievements, Ibrahim is uniquely equipped to guide aspiring college athletes through the recruitment journey, helping them turn their potential 
+                    into reality. Let Ibrahim lead you in achieving your collegiate athletic dreams.
                 </p>
                 <div className="px-6">
                     <ul className="list-none list-inside text-lg space-y-3">
