@@ -35,7 +35,6 @@ const Service = () => {
     }else if(selectedOption && nationalService){
         return <NationalService/>
     }else if(selectedOption && studentAthlete){
-        return <StudentAthlete/>
     }
 }
 
