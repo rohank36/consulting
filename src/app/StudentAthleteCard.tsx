@@ -9,7 +9,7 @@ const StudentAthleteCard = (props: {title:string, description: string, numOfSess
             <div className='flex flex-col justify-between flex-grow px-1 py-1'>
                 <div>
                     <div className="font-bold text-md">{props.title}</div>
-                    <p className="text-slate-500 text-sm line-clamp-4">
+                    <p className="text-slate-500 text-sm line-clamp-6">
                         {props.description}
                     </p>
                 </div>

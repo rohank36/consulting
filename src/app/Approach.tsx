@@ -8,13 +8,10 @@ const Approach = (props:{id:string}) => {
                 <div className="hero-content text-center text-neutral-800">
                     <div className="max-w-md lg:max-w-full">
                         <h1 className="lg:text-7xl text-3xl font-bold mb-4 lg:mb-10">Our Approach</h1>
-                        <p className="py-6 mb-4 lg:mb-10">
-                            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
-                            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id n
-                            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id n
-                            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id n
-                            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id n
-                            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id n
+                        <p className="py-6 mb-4 lg:text-lg lg:mb-10">
+                            Our approach is driven by a deep commitment to your success. From the outset, our guidance is meticulously tailored to your unique needs and aspirations. 
+                            Each of our premium modules is customized to align with your current situation and future goals. With Co-Founder and Lead Mentor Ibrahim at the 
+                            helm—someone who has personally navigated the path you're on—we possess the firsthand experience and understanding necessary to guide you effectively.
                         </p>
                         <button className="btn btn-outline cursor-auto hover:bg-transparent hover:text-black">Check out our modules below</button>
                     </div>
