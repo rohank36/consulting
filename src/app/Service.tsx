@@ -16,7 +16,7 @@ const Service = () => {
         setSelectedOption(true);
         setStudentAthlete(true);
     }
-    //TODO: add a back button or toggle button to switch between the two options
+  
     if(!selectedOption){
         return (
             <div className="text-center mt-10"> 

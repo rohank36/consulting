@@ -1,7 +1,6 @@
 'use client';
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-//TODO: MAKE SURE ALL PAGES ARE ACCESSIBLE FROM MENU DROPDOWN
 
 const NavBar = () =>{
     const [isColor, setIsColor] = useState(false);

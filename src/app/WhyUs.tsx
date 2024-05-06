@@ -17,7 +17,7 @@ const LinkedInIcon = () => (
   </svg>
 );
 
-//TODO: make this page mobile friendly
+
 const WhyUs = (props:{id:string}) => {
     const ibroLinkedIn="https://www.linkedin.com/in/ibrahim-ayorinde-494b821ab/";
     const [currentImage, setCurrentImage] = useState('/images/ibro/princeton-record-holder.JPG'); // Default image

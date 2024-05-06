@@ -3,7 +3,6 @@ import React from 'react';
 import StudentAthleteCard from './StudentAthleteCard';
 
 
-//TODO: maybe switch to use "card" dasiy ui then leverage the design principle the guy in the tiktok talked about
 
 const StudentAthlete = (props:{id:string}) => {
 
