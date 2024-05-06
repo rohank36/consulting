@@ -24,7 +24,7 @@ const NavBar = () =>{
                     <a className="btn btn-ghost text-xl">Consulting Biz</a>
                 </div>
                 <div className="flex lg:navbar-center items-center justify-center w-full lg:w-auto">
-                    <Link href="#consultation"><button className="btn btn-outline hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-transparent hover:text-neutral">Book Your Free Consultation Now</button></Link>
+                    <Link href="#consultation"><button className="btn btn-outline black-border text-black hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-transparent hover:text-neutral">Book Your Free Consultation Now</button></Link>
                 </div>
                 <div className="navbar-end hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 mr-10">
