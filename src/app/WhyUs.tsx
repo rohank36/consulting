@@ -27,7 +27,7 @@ const WhyUs = (props:{id:string}) => {
         photo3: '/images/ibro/princeton-record-holder.JPG',
         photo4: '/images/ibro/ivy-league-record.JPG',
         photo5: '/images/ibro/princeton-record-holder.JPG',
-        photo6: '/images/ibro/grad.JPG',
+        photo6: '/images/ibro/grad.jpg',
         photo7: '/images/ibro/princeton-record-holder.JPG'
         // Add more images as needed
     };
