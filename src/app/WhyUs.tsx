@@ -34,7 +34,7 @@ const WhyUs = (props:{id:string}) => {
 
     return (
         <div id={props.id} className="flex flex-wrap md:flex-nowrap h-screen">
-            <div className="w-full md:w-1/2 p-4 md:p-10 bg-white rounded-lg overflow-auto text-black">
+            <div className="w-full md:w-1/2 p-4 md:p-10 bg-white overflow-auto text-black">
                 <h1 className="text-center font-bold text-3xl lg:text-7xl mb-4">Why trust us?</h1>
                 <p className="text-center text-sm mb-2 lg:mb-8">Our team is composed of experts who have walked this path and thrived.</p>
                 <div className="flex items-center space-x-4 mb-2">
