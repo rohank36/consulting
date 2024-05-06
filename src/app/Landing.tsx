@@ -9,7 +9,7 @@ const Landing = (props:{ id :string }) => {
         <div id={props.id} className="">
             <div className="hero min-h-screen bg-[url('../../assets/images/landing-web.jpg')]" >
             <div className="hero-overlay bg-opacity-60"></div>
-                <div className="hero-content text-center text-neutral-content">
+                <div className="hero-content text-center text-neutral-content sm:text-white">
                     <div className="max-w-md lg:max-w-full p-10">
                         <h1 className="mb-5 text-3xl lg:text-7xl lg:mb-10 font-bold">Personalized consulting to guide student-athletes to success in college recruitment</h1>
                         <p className="mb-5 lg:mb-10 lg:text-2xl">We've done it before, now lets do it together.</p>

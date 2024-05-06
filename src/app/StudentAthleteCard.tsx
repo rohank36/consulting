@@ -8,12 +8,12 @@ const StudentAthleteCard = (props: {title:string, description: string, numOfSess
             </div>
             <div className='flex flex-col justify-between flex-grow px-1 py-1'>
                 <div>
-                    <div className="font-bold text-md">{props.title}</div>
+                    <div className="font-bold text-md text-black">{props.title}</div>
                     <p className="text-slate-500 text-sm line-clamp-8">
                         {props.description}
                     </p>
                 </div>
-                <div className='text-sm mt-2 self-start'><b>{props.numOfSession}</b> sessions</div>
+                <div className='text-sm mt-2 self-start text-black'><b>{props.numOfSession}</b> sessions</div>
             </div>
         </div>
     );

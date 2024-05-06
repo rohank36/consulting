@@ -4,7 +4,7 @@ import React from 'react';
 const Consultation = (props:{id:string}) => {
     return(
         <div id={props.id}>
-            <div className="hero h-3/4 bg-white">
+            <div className="hero h-3/4 bg-white text-black">
                 <div className="hero-content text-center p-20">
                     <div className="lg:w-full">
                         <h1 className="lg:text-6xl text-4xl font-bold">Book Your Free Consultation Now</h1>

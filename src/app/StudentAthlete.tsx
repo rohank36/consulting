@@ -21,7 +21,7 @@ const StudentAthlete = (props:{id:string}) => {
 
     return (
         <div id={props.id}>
-            <div className="min-h-screen flex flex-col items-center justify-center bg-white">
+            <div className="min-h-screen flex flex-col items-center justify-center bg-white text-black">
                 <h1 className="font-bold text-2xl lg:text-7xl mt-8 mb-3 text-center">Student Athlete Modules</h1>
                 <h1 className="text-sm lg:text-lg text-center">In total we offer <b>8</b> premium modules made up of <b>___+</b> sessions!</h1>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 mb-10 p-20">
