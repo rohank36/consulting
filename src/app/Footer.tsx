@@ -4,7 +4,7 @@ const Footer = () =>{
         <div>
             <footer className="footer footer-center p-10 bg-white text-slate-500">
                 <aside>
-                    <p>Copyright © 2024 - All rights reserved by Consulting Biz Ltd</p>
+                    <p>Copyright © 2024 - All rights reserved by ProspectPrep Consulting Ltd</p>
                 </aside>
             </footer>
         </div>

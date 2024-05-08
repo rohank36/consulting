@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-const StudentAthleteCard = (props: {title:string, description: string, numOfSession: number, imgSrc: string, imgSrcAlt: string}) => {
+const StudentAthleteCard = (props: {title:string, description: string, imgSrc: string, imgSrcAlt: string}) => {
     return (
         <div className="max-w-md rounded-lg hover:-translate-y-1 hover:scale-110 duration-300 flex flex-col">
             <div className="relative">
@@ -13,7 +13,6 @@ const StudentAthleteCard = (props: {title:string, description: string, numOfSess
                         {props.description}
                     </p>
                 </div>
-                <div className='text-sm mt-2 self-start text-black'><b>{props.numOfSession}</b> sessions</div>
             </div>
         </div>
     );

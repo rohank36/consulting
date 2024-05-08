@@ -5,7 +5,7 @@ import FAQCard from './FAQCard';
 const d1 = "Start your journey now by booking a free 30 minute consultation call with us - we'll handle the rest!";
 const d2 = "No worries! Schedule a consultation and we'll create a personalized plan just for you.";
 const d3 = "One session will typically last between 1 to 1.5 hours.";
-const d4 = "_______________idk bruv";
+const d4 = "Preparation should ideally start as early as your 10th grade year in order to maximize your opportunities.";
 
 const FAQ = (props:{id:string}) => {
     return (

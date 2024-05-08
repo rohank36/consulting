@@ -13,7 +13,7 @@ import StudentAthlete from "./StudentAthlete";
 
 export default function Home() {
   
-  //!!!: MAKE SURE EVERYTHING IS OPTIMIZED FOR MOBILE
+  //TODO: FILL IN BLANKS
   return (
     <div className="flex flex-col w-full scroll-smooth">
       <div className="sticky top-0 z-50">

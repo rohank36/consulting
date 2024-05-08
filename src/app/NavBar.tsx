@@ -15,12 +15,12 @@ const NavBar = () =>{
     }, []);
 
     const navbarClasses = isColor ? 'navbar absolute top-0 z-50 bg-[#f7f7f7] transition-colors duration-300 shadow-2xl rounded-b-lg' : 'navbar absolute top-0 z-50 bg-transparent transition-colors duration-300';
-    
+    //<a className="btn btn-ghost text-xl">ProspectPrep</a>
     return(
         <div>
             <div className={navbarClasses}>
-                <div className="navbar-start hidden lg:flex">
-                    <a className="btn btn-ghost text-xl">Consulting Biz</a>
+                <div className="navbar-start hidden lg:flex items-center">
+                    <img src="/images/logo.JPG" className='h-16 rounded-lg'/>
                 </div>
                 <div className="flex lg:navbar-center items-center justify-center w-full lg:w-auto">
                     <Link href="#consultation"><button className="btn btn-outline black-border text-black hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-transparent hover:text-neutral">Book Your Free Consultation Now</button></Link>

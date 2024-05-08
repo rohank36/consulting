@@ -49,8 +49,8 @@ const WhyUs = (props:{id:string}) => {
                     </button>
                 </div>
                 <p className="mb-5 text-sm">
-                    Meet Ibrahim, Consulting Biz’s lead mentor. Born in the U.S. and raised in Oakville, Canada, Ibrahim discovered his passion for track at a young age. 
-                    Throughout high school at Appleby College, he excelled in multiple competitions winning meets like ____,_____, and ______. Ibrahim overcame college recruitment 
+                    Meet Ibrahim, ProspectPrep's lead mentor. Born in the U.S. and raised in Oakville, Canada, Ibrahim discovered his passion for track at a young age. 
+                    Throughout high school at Appleby College, he excelled in multiple competitions and was a member of Team Canada's junior team. Ibrahim overcame college recruitment 
                     obstacles by navigating the process himself, securing offers from prestigious universities like Princeton, Columbia, and the University of Toronto. At Princeton, 
                     he not only pursued an Engineering degree but also broke records in the Ivy League, eventually becoming the captain of the Princeton track and field team. With his 
                     extensive experience and achievements, Ibrahim is uniquely equipped to guide aspiring college athletes through the recruitment journey, helping them turn their potential 
@@ -72,7 +72,7 @@ const WhyUs = (props:{id:string}) => {
                         >🥇 Ivy League Record Holder</li>
                         <li className="hover:scale-110 cursor-pointer duration-300"
                             onClick={() => setCurrentImage(images.photo5)}
-                        >🎓 Recruited by ___+ schools across the US and Canada</li>
+                        >🎓 Recruited by 20+ schools across the US and Canada</li>
                         <li className="hover:scale-110 cursor-pointer duration-300"
                             onClick={() => setCurrentImage(images.photo6)}
                         >📚 Studied Operations Research and Financial Engineering</li>
