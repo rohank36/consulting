@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+//<button className="btn btn-outline cursor-auto black-border text-black hover:bg-transparent hover:text-black">Check out our modules below</button>
 
 const Approach = (props: { id: string }) => {
     return (
@@ -13,7 +14,6 @@ const Approach = (props: { id: string }) => {
                             Each of our premium modules is customized to align with your current situation and future goals. With Co-Founder and Lead Mentor Ibrahim at the 
                             helm—someone who has personally navigated the path you're on—we possess the firsthand experience and understanding necessary to guide you effectively.
                         </p>
-                        <button className="btn btn-outline cursor-auto black-border text-black hover:bg-transparent hover:text-black">Check out our modules below</button>
                     </div>
                 </div>
             </div>
