@@ -2,10 +2,11 @@ import React from 'react';
 import FAQCard from './FAQCard';
 
 
-const d1 = "Start your journey now by booking a free 30 minute consultation call with us - we'll handle the rest!";
+const d1 = "Start your journey now by booking a free 30-minute consultation call with us - we'll handle the rest!";
 const d2 = "No worries! Schedule a consultation and we'll create a personalized plan just for you.";
 const d3 = "One session will typically last between 1 to 1.5 hours.";
 const d4 = "Preparation should ideally start as early as your 10th grade year in order to maximize your opportunities.";
+const d5 = "Schedule a 30-minute consultation with us, and as we learn more about your unique needs, we'll provide you with a tailored quote that fits your requirements."
 
 const FAQ = (props:{id:string}) => {
     return (
@@ -47,6 +48,15 @@ const FAQ = (props:{id:string}) => {
                     </div>
                     <div className="collapse-content"> 
                         <FAQCard  description={d4} />  
+                    </div>
+                </div>
+                <div className="collapse bg-base-200 mb-6">
+                    <input type="radio" name="my-accordion-1" /> 
+                    <div className="collapse-title text-xl">
+                        How much will this cost?
+                    </div>
+                    <div className="collapse-content"> 
+                        <FAQCard  description={d5} />  
                     </div>
                 </div>
 
