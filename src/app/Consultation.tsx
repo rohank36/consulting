@@ -1,4 +1,5 @@
 'use client';
+import Link from 'next/link';
 import React from 'react';
 
 const Consultation = (props:{id:string}) => {
@@ -12,7 +13,7 @@ const Consultation = (props:{id:string}) => {
                             Schedule your free 30 minute consultation today and we'll be in contact with you! Dive into a personalized session where we explore your unique aspirations and challenges to tailor a customized experience and strategy based on your needs.
                             We're here to guide you every step of the way. Let's navigate this journey together to ensure that you are always one step ahead.
                         </p>
-                        <button className="btn btn-large btn-outline mt-5 border-black text-black hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-transparent hover:text-black">Book Consultation</button>
+                        <Link href="https://calendly.com/info-jiue/30min"><button className="btn btn-large btn-outline mt-5 border-black text-black hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-transparent hover:text-black">Book Consultation</button></Link>
                     </div>
                 </div>
             </div>
