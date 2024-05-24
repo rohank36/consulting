@@ -5,7 +5,7 @@ const Footer = () =>{
     const router = useRouter()
     return(
         <div>
-            <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded">
+            <footer className="footer footer-center p-10 bg-gray-100 text-black rounded">
                 <nav className="grid grid-flow-col gap-4">
                     <a className="link link-hover" type="button" onClick={() => router.push('/contact')}>Contact Us</a>
                     <a className="link link-hover" type="button" onClick={() => router.push('/privacy')}>Privacy Policy</a>
