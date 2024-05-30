@@ -6,7 +6,7 @@ export default function ContactPage(){
             <div className="hero min-h-screen bg-white text-black relative">
                 <div className="flex flex-col">
                     <div className="absolute top-4 lg:left-4">
-                        <img src="/images/main2.png" className="h-16 mx-auto md:h-16" />
+                        <img src="/images/main3.png" className="h-16 mx-auto md:h-16" />
                     </div>
                     <div className="hero-content text-center flex justify-center items-center">
                         <div className="max-w-md">

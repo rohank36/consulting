@@ -20,7 +20,7 @@ const NavBar = () =>{
         <div>
             <div className={navbarClasses}>
                 <div className="navbar-start hidden lg:flex items-center">
-                    <img src="/images/main2.png" className='h-12 rounded-lg'/>
+                    <img src="/images/main3.png" className='h-12 rounded-lg'/>
                 </div>
                 <div className="flex lg:navbar-center items-center justify-center w-full lg:w-auto">
                     <Link href="#consultation"><button className="btn btn-outline black-border text-black hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-transparent hover:text-neutral">Book Your Free Consultation Now</button></Link>

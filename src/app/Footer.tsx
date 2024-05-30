@@ -11,7 +11,7 @@ const Footer = () =>{
                     <a className="link link-hover" type="button" onClick={() => router.push('/privacy')}>Privacy Policy</a>
                 </nav> 
                 <nav>
-                    <img src="/images/main2.png" className='h-16 rounded-lg'/>
+                    <img src="/images/main3.png" className='h-16 rounded-lg'/>
                 </nav>
                 <div className="space-y-3 text-xs">
                     <aside>
