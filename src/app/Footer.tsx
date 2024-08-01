@@ -9,6 +9,7 @@ const Footer = () =>{
                 <nav className="grid grid-flow-col gap-4">
                     <a className="link link-hover" type="button" onClick={() => router.push('/contact')}>Contact Us</a>
                     <a className="link link-hover" type="button" onClick={() => router.push('/privacy')}>Privacy Policy</a>
+                    <a className="link link-hover" type="button" href="https://www.instagram.com/prospectprepconsulting/">Instagram</a>
                 </nav> 
                 <nav>
                     <img src="/images/main3.png" className='h-16 rounded-lg'/>

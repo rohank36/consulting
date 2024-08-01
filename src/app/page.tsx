@@ -10,6 +10,7 @@ import Footer from "./Footer";
 import Approach from "./Approach";
 import FAQ from "./FAQ";
 import StudentAthlete from "./StudentAthlete";
+import Mission from "./Mission"
 
 export default function Home() {
   
@@ -24,7 +25,7 @@ export default function Home() {
       <Approach id="approach" />
       <StudentAthlete id="service"/>
       <WhyUs id="whyus"/>
-      <About id="about"/>
+      <Mission id="about"/>
       <FAQ id="faq"/>
       <Consultation id="consultation"/>
       <Footer />

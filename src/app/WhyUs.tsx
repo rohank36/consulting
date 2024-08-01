@@ -33,7 +33,7 @@ const WhyUs = (props:{id:string}) => {
     };
 
     return (
-        <div id={props.id} className="flex flex-wrap md:flex-nowrap h-screen">
+        <div id={props.id} className="flex flex-wrap md:flex-nowrap min-h-screen">
             <div className="w-full md:w-1/2 p-4 md:p-10 bg-white overflow-auto text-black">
                 <h1 className="text-center font-bold text-3xl lg:text-7xl mb-4">Why trust us?</h1>
                 <p className="text-center text-sm mb-2 lg:mb-8">Our team is composed of experts who have walked this path and thrived.</p>
@@ -51,7 +51,7 @@ const WhyUs = (props:{id:string}) => {
                 <p className="mb-5 text-sm">
                     Meet Ibrahim, ProspectPrep's lead mentor. Born in the U.S. and raised in Oakville, Canada, Ibrahim discovered his passion for track at a young age. 
                     Throughout high school at Appleby College, he excelled in multiple competitions and was a member of Team Canada's junior team. Ibrahim overcame college recruitment 
-                    obstacles by navigating the process himself, securing offers from prestigious universities like Princeton, Columbia, and the University of Toronto. At Princeton, 
+                    obstacles by navigating the process himself, securing a total of 20+ offers from prestigious universities like Princeton, Columbia, and the University of Toronto. At Princeton, 
                     he not only pursued an Engineering degree but also broke records in the Ivy League, eventually becoming the captain of the Princeton track and field team. With his 
                     extensive experience and achievements, Ibrahim is uniquely equipped to guide aspiring college athletes through the recruitment journey, helping them turn their potential 
                     into reality. Let Ibrahim lead you in achieving your collegiate athletic dreams.
