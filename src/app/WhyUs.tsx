@@ -76,9 +76,6 @@ const WhyUs = (props:{id:string}) => {
                         <li className="hover:scale-110 cursor-pointer duration-300"
                             onClick={() => setCurrentImage(images.photo6)}
                         >📚 Studied Operations Research and Financial Engineering</li>
-                        <li className="hover:scale-110 cursor-pointer duration-300"
-                            onClick={() => setCurrentImage(images.photo7)}
-                        >👔 Incoming Analyst @ McKinsey & Company in NYC </li>
                     </ul>
                 </div>
             </div>
